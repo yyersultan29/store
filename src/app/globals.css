@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-light-color: "#fff";
+  --background-dark-color: "#333";
+  --text-dark-color: #484848;
+  --text-light-color: "#fff";
+  --normal-font-weight: "700";
+}
+
+body {
+  color: var(--text-dark-color);
+  background-color: var(--background-light-color);
+  font-family: var(--font-family);
+  font-weight: var(--normal-font-weight);
+}
+
+.main {
+  padding: 0 100px;
+}

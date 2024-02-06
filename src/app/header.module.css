@@ -1,0 +1,31 @@
+.header {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 52px;
+}
+
+.header-links-group {
+  display: flex;
+  gap: 100px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.header-nav li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+header-nav li:hover {
+}

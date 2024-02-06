@@ -1,0 +1,80 @@
+.button {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  border-radius: 10px;
+  max-inline-size: 100%;
+  transition: opacity 0.3s ease;
+  font-weight: 400;
+}
+.button:active {
+  opacity: 0.9;
+}
+
+.loader {
+  cursor: progress;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.block {
+  width: 100%;
+}
+
+.button-size-s {
+  min-width: 104px;
+  min-height: 40px;
+  padding: 0 28px;
+  font-size: 14px;
+}
+.button-size-m {
+  min-width: 128px;
+  min-height: 56px;
+  padding: 0 28px;
+  font-size: 16px;
+}
+
+.button-size-l {
+  min-width: 160px;
+  min-height: 64px;
+  padding: 0 32px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.button-bg-success {
+  background-color: rgb(37, 182, 37);
+}
+.button-bg-error {
+  background-color: rgb(221, 35, 35);
+}
+.button-bg-secondary {
+  background-color: rgb(230, 39, 172);
+}
+.button-bg-dark {
+  background-color: #111;
+  color: #fff;
+}
+.button-bg-light {
+  background-color: silver;
+  color: #333;
+}
+
+.button-variant-contained {
+  /* background-color: initial; */
+}
+.button-variant-text {
+  background-color: inherit;
+}
+.button-variant-outlined {
+  background-color: inherit;
+  border: 1px solid silver;
+}
